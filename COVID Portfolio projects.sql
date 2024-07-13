@@ -174,3 +174,6 @@ join PortfolioProject..CovidVaccinations$ vacc
 on dth.location=vacc.location
 and dth.date=vacc.date 
 where dth.continent is not null
+
+Select *
+from PopulationVaccinated
